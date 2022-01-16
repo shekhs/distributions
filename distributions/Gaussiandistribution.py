@@ -177,5 +177,5 @@ class Gaussian(Distribution):
 			string: characteristics of the Gaussian
 		
 		"""
-		
+		#final return values
 		return "mean {}, standard deviation {}".format(self.mean, self.stdev)
